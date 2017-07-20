@@ -1,0 +1,102 @@
+*{
+	font-size: 20px;
+}
+
+#giveTitle{
+	text-align: center;
+    border-collapse: collapse;
+    box-shadow: 2px 1px 6px #999;
+	margin: 2% 2% 0 2%; 
+    height: 13em;
+    width: 18em;
+    float: left;
+}
+
+.tab{
+	text-align: center;;
+}
+
+.form-body{
+	text-align: center;
+	margin-left: 8%;
+}
+
+#help-1 {
+    height: 20px;
+    width: 40px;
+    top: -4px;
+    position: relative;
+    font-size: 3px;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+#tabs{
+	text-align: center;
+    border-collapse: collapse;
+    box-shadow: 2px 1px 6px #999;
+	margin: 2% 2% 0 2%; 
+    height: 35em;
+    width: 23.5em;
+    float: left;
+}
+
+.form-table td{
+	height: 3em;
+}
+
+input[type=text]{
+	height: 25px;
+	font-size: 100%; 
+}
+
+input[type=submit] {
+	height: 40px;
+ 	width: 150px;
+}
+
+#form-div{
+	width: 77%;
+	border-right: 1px  #bbb solid;
+	float: left;
+}
+
+#msg-div{
+	width: 20%;
+	float: left;
+}
+
+#msg-div-title{
+	text-align: center;
+	border-bottom: 1px  #bbb solid;
+	font-size: 24px;
+	height: 40px;
+	padding-top: 8px;
+}
+
+#msg-content{
+	overflow-y:auto;
+}
+
+.message{
+    margin: 10px;
+    border: 1px #bbb solid;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 2px 1px 1px #bbb;
+}
+
+.success{
+	color: green;
+}
+
+.fail{
+	color: red;
+}
+
+.error{
+	color: red;
+}
